@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "Sometype";
+  src: url("https://cdn.jsdelivr.net/gh/dharmatype/Sometype-Mono/fonts/ttf/SometypeMono-Regular.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+	--font: Sometype;
+	--background: #141617;
+	--font-color: #dbd8d4;
+	--link: #934cdc;
+  --link-hover: #af80e2;
+
+}
+
+body {
+  font-family: var(--font);
+  background-color: var(--background);
+	font-size: 17px;
+	color: var(--font-color)
+}
+
+p {
+  margin: 0;
+}
+
+a {
+	color: var(--link);
+	text-decoration: none;
+}
+a:hover {
+	color: var(--link-hover);
+	text-decoration: underline;
+}
+
+input {
+  background-color: var(--background);
+	border: 0;
+  color: var(--font-color);
+  font-family: var(--font);
+  font-size: 1em;
+  width: 100%;
+}
+input:focus {
+  outline: none;
+}
+
+.input {
+	display: flex;
+}
+
+.input span {
+	margin-right: 0.5em;
+}

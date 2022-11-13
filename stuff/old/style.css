@@ -1,0 +1,174 @@
+@font-face { font-family: Skillscreen; src: url('slkscr.ttf'); }
+@media only screen and (min-device-width : 926px) and (orientation : landscape) {
+  .title {
+    position: relative;
+    text-align: left;
+    font-size: 500%;
+    letter-spacing: -13px;
+    width: 20%;
+    top: 2%;
+    left: 4%;
+  }
+  .filler {
+    height: 20%;
+  }
+  .footer {
+    position: relative;
+    top: 20%;
+    transform: translateY(-30%);
+  }
+  .info {
+    width: 30%;
+  }
+  .cli {
+    display: inline-block;
+  }
+}
+@media only screen and (max-device-width : 925px) and (min-device-width: 500px) and (orientation : landscape) {
+  .title {
+    position: relative;
+    text-align: left;
+    font-size: 500%;
+    letter-spacing: -13px;
+    width: 20%;
+    top: 2%;
+    left: 4%;
+  }
+  .filler {
+    height: 20%;
+  }
+  .footer {
+    position: relative;
+    top: 18%;
+    transform: translateY(-18%);
+  }
+  .info {
+    width: 40%;
+  }
+  .cli {
+    display: inline-block;
+  }
+}
+@media only screen and (max-device-width : 499px) and (orientation : landscape) {
+  .title {
+    display: none;
+  }
+  .filler {
+    height: 10%;
+  }
+  .footer {
+    position: relative;
+    top: 18%;
+    transform: translateY(-18%);
+  }
+  .info {
+    width: 70%;
+  }
+  .cli {
+    display: inline-block;
+  }
+}
+
+@media only screen and (orientation : portrait) {
+  .title {
+    display: none;
+  }
+  .filler {
+    height: 10%;
+  }
+  .footer {
+    position: relative;
+    top: 18%;
+    transform: translateY(-18%);
+  }
+  .info {
+    width: 80%;
+  }
+  .cli {
+    display: none;
+  }
+}
+
+html {
+  background-color: black;
+  -ms-user-select: None;
+  -moz-user-select: None;
+  -webkit-user-select: None;
+}
+body {
+  font-family: "Skillscreen";
+  color: grey;
+  text-align: center;
+  height: 100vh;
+  margin: auto;
+  padding: auto;
+}
+a {
+  text-decoration: none;
+  color: grey;
+}
+button {
+  background-color: #111111;
+  border: none;
+  color: grey;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.pic {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+.rune {
+  position: relative;
+}
+.info {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.parent {
+  position: relative;
+  top: 4%;
+}
+.inside {
+  display: inline-block;
+  width: 109px;
+}
+.icon {
+  height: 50px;
+  width: 50px;
+}
+.name {
+  font-size: 75%;
+}
+.ask {
+ position: relative;
+ top: 9%;
+ width: 80%;
+ left: 50%;
+ transform: translateX(-50%);
+}
+.cli {
+  position: relative;
+  width: 109px;
+  top: 11%;
+}
+.links {
+  position: relative;
+  top: 15%;
+  margin: 7%;
+}
+.frame {
+  display: none;
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  bottom: 25%;
+  right: 25%;
+}
+.frame button {
+  float: right;
+}

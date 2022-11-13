@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
+html {
+  font-size: 10px;
+}
+body {
+  background-color: #1b1b1b;
+
+  font-family: Roboto Mono;
+  color: #f1f1f1;
+}
+
+/* dvd logo */
+#parent {
+  background-color: #f1f1f1;
+/*   height: 500px;
+  width: 665px; */
+  min-height: 300px;
+  min-width: 400px;
+  max-height: 100%;
+  max-width: 100%;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  resize: both;
+  overflow: auto;
+}
+#box {
+  position: absolute;
+  height: calc(100% - 5rem);
+  width: calc(100% - 5rem);
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#logo {
+  background-color: #1c1c1c;
+  width: 5rem;
+  height: 5rem;
+
+  position: relative;
+/*   top: 1px;
+  left: 1px; */
+  transform: translate(-50%, -50%);
+}
+
+
+/* info */
+#info {
+  font-size: 50px;
+  visibility: hidden;
+
+  user-select: None;
+  -ms-user-select: None;
+  -moz-user-select: None;
+  -webkit-user-select: None;
+}
+#counterParent {
+  position: absolute;
+  top: 10%;
+  right: 5%;
+}
+.counter, #placeholderCounter {
+  position: relative;
+  margin: 5px;
+  text-align: right;
+}
+#timer {
+  margin: 5px;
+
+  position: absolute;
+  top: 10%;
+  left: 5%;
+}

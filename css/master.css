@@ -1,0 +1,93 @@
+main {
+  width: 54vw;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (orientation: portrait) {
+  main {
+    width: 95vw;
+  }
+}
+
+section {
+  min-height: 100vh;
+}
+
+/* Name */
+
+.name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 25%;
+}
+
+.name img {
+  border-radius: 50%;
+  height: 7rem;
+}
+
+.name h2 {
+  margin: 0.5rem auto 1rem;
+}
+
+.name p {
+  word-wrap: break-word;
+  text-align: center;
+  margin: 0;
+}
+
+/* Links */
+
+.links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  margin-top: 1.8rem;
+}
+
+.link {
+  min-width: 8rem;
+  margin: 3%;
+  text-align: center;
+}
+
+.link img {
+  height: 4rem;
+}
+
+.link a {
+  color: var(--font);
+}
+
+.links-noIcon {
+  text-align: center;
+}
+
+.links-noIcon-inner {
+  display: flex;
+  justify-content: center;
+}
+
+.link-noIcon {
+  margin: 10px;
+}
+
+/* Stuff */
+.stuff-content {
+  margin-top: 10%;
+}
+
+.stuff-boxes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
