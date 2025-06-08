@@ -14,7 +14,7 @@ main {
 }
 
 section {
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 
 /* Name */
@@ -37,6 +37,8 @@ section {
 }
 
 .name p {
+  width: 50%;
+  min-width: 300px;
   word-wrap: break-word;
   text-align: center;
   margin: 0;
