@@ -13,10 +13,6 @@ main {
   }
 }
 
-section {
-  /* min-height: 100vh; */
-}
-
 /* Name */
 
 .name {
@@ -81,15 +77,4 @@ section {
 
 .link-noIcon {
   margin: 10px;
-}
-
-/* Stuff */
-.stuff-content {
-  margin-top: 10%;
-}
-
-.stuff-boxes {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
 }
